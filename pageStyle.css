@@ -7,3 +7,16 @@ body {
     background-color: #c1c3c4;
     color: #43464B;
 }
+
+#NavigationUL {
+    background-color: #b2b4b5;
+    width: 20%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: 7px;
+    padding-bottom: 100%;
+    padding-top: 20px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
