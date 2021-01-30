@@ -1,1 +1,55 @@
-<!-- notes-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Nails</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id="Header">Rainbow Nails</h1>
+    <!-- Above title below navbar -->
+    <div id="Navigation">
+    <ul id="navigationUL">
+        <li><a href="addPPL.html">Customer Management</a></li>
+        <li><a href="addAPS.html">Appointment Management</a></li>
+        <li><a href="ColorApps.html">Post Appointment Management</a></li>
+    </ul>
+    </div>
+
+    <!-- Appointment Creation -->
+        <div id="formStyle">
+        <div id="AddAPSForm">
+        <form>
+            <fieldset>
+                <h2>Add New Appointment</h2>
+                <label for="date_time">Date Time Start</label>
+                <input type="datetime-local" name="date_time">
+                <label for="APS_Type">Appointment Type</label>
+                <input type="text" name="APS_Type">
+                <input type="submit" name="submit" value="Submit New Appointment">
+            </fieldset>
+        </form>
+        </div>
+        
+    <!--List of current appointments in the system-->
+        <div id="currentAPS">
+        <h2>Our Appointments:</h2>
+        <form>
+            <fieldset>
+                <label for="date_time">Date Time Start</label>
+                <input type="datetime-local" name="date_time">
+                <label for="APS_Type">Appointment Type</label>
+                <input type="text" name="APS_Type">
+                <label for="APS_Avail">Appointment Customer</label>
+                <input type="text" name="APS_Avail">
+                <button name="edit">Edit</button>
+                <button name="delete">Delete</button>    
+            </fieldset>
+        </form>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
